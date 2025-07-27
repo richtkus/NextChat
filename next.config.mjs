@@ -32,6 +32,9 @@ const nextConfig = {
   },
   experimental: {
     forceSwcTransforms: true,
+    serverActions: {
+      allowedOrigins: ["nextchat.safasasdsajhjllj.gallentyeah.asia", "nextchat.gallentyeah.asia"]
+    }
   },
 };
 
